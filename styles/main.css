@@ -42,6 +42,7 @@
   width: 200px;
   height: 450px;
   background: green;
+  border-radius: 20px;
 }
 
 .content {
@@ -50,6 +51,7 @@
   height: 350px;
   background: yellow;
   margin-left: 170px;
+  border-radius: 20px;
 }
 
 .right {
@@ -65,9 +67,26 @@
   background: white;
   margin-bottom: 20px;
   float: right;
+  border-radius: 20px;
 }
 
 .main-footer {
-  height: 150px;
+  text-align: center;
+  height: 200px;
   background: grey;
 }
+
+.footer-text {
+  height: 30px;
+  background: grey;
+  padding-top: 3px;
+  border-bottom: 1px solid black;
+}
+
+.socials li {
+  margin-top: 30px;
+  list-style: none;
+  float: left;
+  width: calc(100% / 3);
+  height: 110px;
+  background: grey;
