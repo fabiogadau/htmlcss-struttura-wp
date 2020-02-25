@@ -101,7 +101,7 @@ h2 {
 
 .left {
   float: left;
-  width: 200px;
+  width: 15%;
   background: white;
   border-radius: 20px;
 }
@@ -133,7 +133,7 @@ h2 {
 
 .content {
   float: left;
-  width: 600px;
+  width: 45%;
   background: white;
   margin-left: 170px;
   border-radius: 20px;
@@ -142,14 +142,14 @@ h2 {
 
 .right {
   float: right;
-  width: 200px;
+  width: 15%;
   background: white;
   margin-left: 20px;
   background-image: url(../img/background-pagina.png);
 }
 
 .right1 {
-  width: 200px;
+  width: 100%;
   background: white;
   margin-bottom: 20px;
   float: right;
