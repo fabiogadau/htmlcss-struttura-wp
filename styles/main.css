@@ -95,21 +95,49 @@ img {
   font-family: 'Roboto';
 }
 
+h2 {
+  color: #353535;
+}
+
 .left {
   float: left;
   width: 200px;
-  height: 450px;
   background: white;
   border-radius: 20px;
+}
+
+.rss {
+  color: orange;
+  font-size: 30px;
+}
+
+.rss-box {
+  float: left;
+}
+
+.othemes {
+  font-weight: bold;
+  font-size: 25px;
+  color: #353535;
+}
+
+#themes {
+  list-style: none;
+}
+
+.left ul li a {
+  display: block;
+  text-decoration: none;
+  color: green;
 }
 
 .content {
   float: left;
   width: 600px;
-  height: 350px;
   background: white;
   margin-left: 170px;
   border-radius: 20px;
+  line-height: 2;
 }
 
 .right {
@@ -122,11 +150,11 @@ img {
 
 .right1 {
   width: 200px;
-  height: 400px;
   background: white;
   margin-bottom: 20px;
   float: right;
   border-radius: 20px;
+  line-height: 2;
 }
 
 /*Footer*/
@@ -140,8 +168,11 @@ img {
 .footer-text {
   height: 30px;
   background: white;
-  padding-top: 3px;
-  border-bottom: 1px solid black;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid grey;
+  font-family: 'Roboto';
+  color: grey;
 }
 
 .socials li {
@@ -151,3 +182,9 @@ img {
   width: calc(100% / 3);
   height: 110px;
   background: white;
+}
+
+.social-logo {
+  font-size: 80px;
+  color: grey;
+}
